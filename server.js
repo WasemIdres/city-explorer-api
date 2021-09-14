@@ -15,7 +15,7 @@ let handleWeather= async (req,res)=>{
     let lat = Number(req.query.lat);
     let lon = Number(req.query.lon);
     if (lat&&lon) {
-        let url=`https://api.weatherbit.io/v2.0/forecast/daily?lat=${lat}&lon=${lon}&key=${process.env.WEATHER_API_KEY}`;
+        let url=`http://api.weatherbit.io/v2.0/forecast/daily?lat=${lat}&lon=${lon}&key=${process.env.WEATHER_API_KEY}`;
         let axiosResponse= await axios.get(url);
         let weatherData=axiosResponse.data;
         let cleanedData=weatherData.data.map(item=>{
@@ -30,7 +30,7 @@ let handleWeather= async (req,res)=>{
 let handleMovie= async (req,res)=>{
     let city_name = req.query.query;
     if (city_name) {
-        let url=`https://api.themoviedb.org/3/search/movie?query=${city_name}&api_key=${process.env.MOVIE_API_KEY}`;
+        let url=`http://api.themoviedb.org/3/search/movie?query=${city_name}&api_key=${process.env.MOVIE_API_KEY}`;
         let axiosResponse= await axios.get(url);
         let MovieData=axiosResponse.data;
         let cleanedData=MovieData.results.map(item=>{
