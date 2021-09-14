@@ -42,3 +42,15 @@ Start time: 2:30
 Finish time: 9:00
 
 Actual time needed to complete: a lot 
+
+---
+
+Name of feature: backednd server connected to movie and weather apis
+
+Estimate of time needed to complete: 5
+
+Start time: 3:00
+
+Finish time: 12:00
+
+Actual time needed to complete: a lot of time
