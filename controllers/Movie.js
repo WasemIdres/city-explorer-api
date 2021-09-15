@@ -1,6 +1,7 @@
 "use strict";
-const User = require("../models/User.model");
-const MovieController = (req, res) => {
+const axios = require("axios");
+const movies = require("../models/Movie.model");
+const MovieController = async (req, res) => {
     let city_name = req.query.query;
     if (city_name) {
         let url = `https://api.themoviedb.org/3/search/movie?query=${city_name}&api_key=${process.env.MOVIE_API_KEY}`;

@@ -1,6 +1,7 @@
 "use strict";
-const Club = require("../models/Club.model");
-const WeatherController = (req, res) => {
+const axios = require("axios");
+const ForeCast = require("../models/Weather.model");
+const WeatherController = async (req, res) => {
     let lat = Number(req.query.lat);
     let lon = Number(req.query.lon);
     if (lat && lon) {
