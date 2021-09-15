@@ -54,3 +54,15 @@ Start time: 3:00
 Finish time: 12:00
 
 Actual time needed to complete: a lot of time
+
+---
+
+Name of feature: added moduls
+
+Estimate of time needed to complete: 1 hour 
+
+Start time: 4:00
+
+Finish time: 5:00
+
+Actual time needed to complete: 1 hour
