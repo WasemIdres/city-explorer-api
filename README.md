@@ -54,3 +54,15 @@ Start time: 3:00
 Finish time: 12:00
 
 Actual time needed to complete: a lot of time
+
+---
+
+Name of feature: made moive and weatherday componetes
+
+Estimate of time needed to complete: 1
+
+Start time: 5:00
+
+Finish time: 6:00
+
+Actual time needed to complete: a lot of time
