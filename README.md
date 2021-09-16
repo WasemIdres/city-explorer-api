@@ -68,3 +68,17 @@ Start time: 4:00
 Finish time: 5:00
 
 Actual time needed to complete: 1 hour
+
+---
+
+
+Name of feature: added cashe
+
+Estimate of time needed to complete: 4 hours 
+
+
+Start time: 4:00
+
+Finish time: 6:00
+
+Actual time needed to complete: 2 hours
